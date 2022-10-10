@@ -1,0 +1,254 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+html {
+  background-color: whitesmoke;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+html,
+body,
+section {
+  height: 100%;
+}
+
+section {
+}
+
+#hal1 {
+  background-color: rgba(147, 218, 215, 0.5);
+}
+
+nav {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 30px 70px;
+  /* border-bottom: 1px solid black; */
+  background-color: azure;
+}
+
+.nav-kiri {
+  display: flex;
+}
+.logo,
+.project {
+  margin: 0 50px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.nav-kanan {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+ul {
+  display: flex;
+}
+
+ul li a {
+  font-size: 12px;
+  font-weight: bold;
+  color: black;
+  /* background-color: #fffff000; */
+  padding: 8px 24px;
+  margin: 0 25px;
+  transition: all 0.5s ease-in-out;
+  border: 1px solid grey;
+}
+
+ul li a:hover {
+  color: black;
+  background-color: white;
+  border-radius: 30px;
+  border: 1px solid rgba(147, 218, 215, 0.5);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 150px 200px;
+}
+
+.intro {
+  display: inline-block;
+  width: 600px;
+}
+
+.intro h1 {
+  font-size: 56px;
+}
+
+.intro p {
+  font-size: 36px;
+}
+.intro i {
+  font-size: 80px;
+}
+
+.sosmed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 70px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 30px;
+  margin: 20px 0;
+}
+
+img {
+  position: relative;
+  margin: 0 5px;
+}
+
+.foot {
+  position: relative;
+  background-color: rgb(255, 228, 196);
+  padding: 50px 50px;
+}
+
+.copyright {
+  background-color: rgb(255, 243, 228);
+  position: relative;
+  right: 45%;
+  display: inline-block;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 20px 20px 0 0;
+  transition: all 0.5s ease-in-out;
+}
+.copyright:hover {
+  background-color: rgb(255, 243, 228);
+  box-shadow: 6px -2px 3px rgba(135, 135, 135, 0.5);
+}
+
+.abc {
+  display: flex;
+  margin: 50px;
+}
+.a,
+.b,
+.c {
+  margin: 0px 40px;
+}
+
+/* -----------------section 2----------------------  */
+
+#hal2 {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+}
+
+.container2 {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 174px;
+}
+
+.hero {
+  width: 400px;
+  background-color: rgba(141, 207, 204, 0.5);
+  border-radius: 0 0 200px 200px;
+}
+
+.intro2 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 600px;
+  margin: 0 100px;
+}
+
+.intro2 h1 {
+  font-size: 44px;
+}
+
+.intro2 p {
+  font-size: 20px;
+  margin-top: 50px;
+}
+.intro2 i {
+  font-size: 80px;
+}
+
+/* -----------------section 3----------------------  */
+
+#hal3 {
+  background-color: beige;
+}
+
+.judul3 {
+  padding: 50px;
+}
+
+.project {
+  position: relative;
+  display: flex;
+  box-sizing: border-box;
+  top: 30%;
+  justify-content: center;
+}
+
+.pro {
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 100px;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  transition: all 0.5s ease-in-out;
+}
+
+.pro:hover {
+  box-shadow: 3px 3px 12px rgb(208, 208, 208);
+}
+
+/* -----------------section 4----------------------  */
+
+#hal4 {
+  background-color: azure;
+}
+
+.judul4 {
+  padding: 40px 200px;
+}
+
+.blogs {
+  position: relative;
+  padding: 0 200px;
+  display: flex;
+}
+
+.blog {
+  background-color: rgba(147, 218, 215, 0.5);
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding: 20px;
+  width: 300px;
+  transition: all 0.5s ease-in-out;
+}
+
+.blog h4 {
+  margin: 10px;
+}
+
+.blog:hover {
+  background-color: rgba(118, 176, 174, 0.5);
+}
