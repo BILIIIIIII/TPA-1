@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow-y: hidden;
+}
+
+.container {
+  background-color: beige;
+  display: flex;
+  justify-content: space-between;
+  padding: 200px;
+}
+
+.kiri {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.kanan {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  padding: 25px;
+  border-radius: 20px;
+}
+
+.title {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+.title h1 {
+  margin: 10px 0;
+  font-size: 60px;
+}
+
+.title p {
+  font-size: 20px;
+}
+
+.input-weight,
+.input-height {
+  margin: 20px;
+}
+
+#berat,
+#tinggi {
+  width: 300px;
+  padding: 8px;
+}
+
+#calculate-btn {
+  position: relative;
+  border-style: none;
+  color: white;
+  background-color: blueviolet;
+  width: fit-content;
+  margin: 0 20px;
+  padding: 8px 16px;
+  transition: all 0.5s ease-in-out;
+  border-radius: 20px;
+}
+#calculate-btn:hover {
+  background-color: violet;
+}
+
+#result-text {
+  margin: 30px;
+  transition: all 0.5s ease-in-out;
+}
